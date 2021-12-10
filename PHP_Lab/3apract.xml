@@ -1,0 +1,28 @@
+
+<!DOCTYPE movies[
+<!ELEMENT movies (movie,movie,movie)>
+<!ELEMENT movie (title,year,genre)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+]>
+
+<movies>
+<movie>
+<title> Mr. India </title>
+<year> 2003 </year>
+<genre> Comedy </genre>
+</movie>
+
+<movie>
+    <title>      Krish  </title>
+    <year>2008</year>
+    <genre>Action</genre>   
+</movie>
+<movie>
+<title> DDLJ </title>
+<year> 2000 </year>
+<genre> Romantic </genre> 
+</movie>
+
+</movies>
